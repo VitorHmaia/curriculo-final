@@ -1,0 +1,346 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #342953;
+    background: linear-gradient(270deg, #252a44 0%, #161836 100%);
+    box-sizing: border-box;
+}
+
+.conteudo{
+    display: flex;
+    margin-right: 72%;
+    justify-content: space-between;
+    }
+
+
+
+.header{
+    background-color: #342953;
+    background: linear-gradient(270deg, #131622 0%, #0f133f 100%);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 5px 5px 5px rgba(7, 10, 10, 0.589); 
+    color: #7EE0E0;   
+}
+
+.logo{
+    width: 110px;
+}
+.menu ul{
+    padding: 0;
+}
+
+.menu li{
+    display: inline;
+    margin: 0 8px;
+}
+
+@media (min-width: 1020px) and (max-width: 1450px){
+
+        .logo {
+        width: 105px;
+        margin: 0px;
+        }
+        .menu li {
+        margin: 0 10px;
+        margin: 30px;
+        }
+        
+        .header {
+        font-size: 20px;
+        }
+
+        .conteudo{
+        text-shadow: black 0.1em 0.1em 0.2em;
+        color: rgb(213, 215, 227);
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;
+        margin-left: 10%;
+        margin-top: 70px;
+        }
+
+        .conteudo h1{
+            font-size: 35px
+        }
+        
+        a:hover{
+        text-decoration: none;
+        color: #7EE0E0;
+        }
+        
+        a:link{ 
+        text-decoration: none;
+        position: relative;
+        }   
+
+        .icons ul{
+        margin-top: 20%;
+        margin-left: 170px;
+        display: inline-flex;
+        justify-content:space-between;
+        width: 100px;
+        height: 100px;
+        gap: 20px;
+        }
+        #foto1{
+        width: 100px;
+        height: 100px;
+        }
+            
+        #foto2{
+        margin-top: 10px;
+        width: 85px;
+        height: 85px;
+        }
+            
+        #foto3{
+        margin-top: 10px;
+        width: 85px;
+        height: 85px;
+        }
+
+
+        #foto4{
+        margin-top: 10px;
+        width: 85px;
+        height: 85px;
+            }
+}
+
+    a:hover{
+        text-decoration: none;
+        color: #7EE0E0;
+        }
+    a:link{ 
+        text-decoration: none;
+        position: relative;
+        }
+
+    ul a::after{
+        content: " ";
+        width: 0%;
+        height: 2px;
+        background-color: #7EE0E0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: 0.5s ease-in-out;
+}   
+
+ul a:hover::after{
+        width: 100%;
+}
+a{
+    color: #7EE0E0;
+}
+
+@media (min-width: 600) and (max-width: 1019px){
+    .header {
+        flex-direction: column;
+    }
+    .menu li {
+        display: inline;
+        font-size: 15px;
+        margin: 0 25px;
+        
+    }
+    a:hover{
+        text-decoration: none;
+        color: #7EE0E0;
+        }
+    
+        a:link{ 
+        text-decoration: none;
+        position: relative;
+        }
+
+    .conteudo{
+        text-shadow: black 0.1em 0.1em 0.2em;
+        color: rgb(213, 215, 227);
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 15px;
+        margin-left: 10%;
+        margin-top: 40px;
+    
+        }
+
+        .icons ul{
+            margin-top: 20%;
+            margin-left: 10px;
+            display: inline-flex;
+            justify-content:space-between;
+            width: 100px;
+            height: 100px;
+            gap: 10px;
+            flex-direction: column;
+        }
+    
+    .conteudo h1{
+                font-size: 25px
+        }
+        #foto4{
+            margin-top: 10px;
+            width: 70px;
+            height: 70px;
+            }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .header {
+        flex-direction: column;
+    }
+    .menu li {
+        display: inline;
+        font-size: 15px;
+        margin: 0 25px;
+        
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #7EE0E0;
+    }
+
+    a:link {
+        text-decoration: none;
+        position: relative;
+        
+    }
+    .conteudo{
+        text-shadow: black 0.1em 0.1em 0.2em;
+        color: rgb(213, 215, 227);
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 15px;
+        margin-left: 10%;
+        margin-top: 40px;
+        flex-direction: column;
+        margin-right: 10%;
+
+        }
+
+        .conteudo h1{
+            font-size: 25px
+        }
+
+        .icons ul{
+            margin-top: 20%;
+            margin-left: 20%;
+            display: inline-flex;
+            justify-content:space-between;
+            width: 100px;
+            height: 100px;
+            flex-direction: column;
+        }
+
+        #foto1{
+        width: 100px;
+        height: 100px;
+        }
+                
+        #foto2{
+        margin-top: 10px;
+        width: 85px;
+        height: 85px;
+        }
+                
+        #foto3{
+        margin-top: 10px;
+        width: 85px;
+        height: 85px;
+        }
+
+        #foto4{
+            margin-top: 10px;
+            width: 70px;
+            height: 70px;
+            }
+
+
+}
+
+@media (min-width: 501px) and (max-width: 1020px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .menu li {
+        display: inline;
+        font-size: 20px;
+        margin: 0 35px;
+    }
+
+    .menu ul {
+        margin: 5px;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #7EE0E0;
+    }
+
+    a:link {
+        text-decoration: none;
+        position: relative;
+    }
+
+    .conteudo{
+        text-shadow: black 0.1em 0.1em 0.2em;
+        color: rgb(213, 215, 227);
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 15px;
+        margin-left: 10%;
+        margin-top: 40px;
+        flex-direction: column;
+        }
+
+    .conteudo h1{
+        font-size: 25px
+        }
+    
+    .icons ul{
+        margin-top: 50%;
+        margin-left: 40px;
+        display: inline-flex;
+        justify-content:space-between;
+        width: 100px;
+        height: 100px;
+        gap: 20px;
+        }
+
+        #foto1{
+        width: 85px;
+        height: 85px;
+        }
+        
+        #foto2{
+        margin-top: 10px;
+        width: 70px;
+        height: 70px;
+        }
+        
+        #foto3{
+        margin-top: 10px;
+        width: 70px;
+        height: 70px;
+        }
+
+        #foto4{
+        margin-top: 10px;
+        width: 70px;
+        height: 70px;
+        }
+}
+
+.icons ul{
+    display: inline-flex;
+    justify-content:space-between;
+    width: 100px;
+    height: 100px;
+    padding: 10%;
+    gap: 80px;
+    
+}
+
